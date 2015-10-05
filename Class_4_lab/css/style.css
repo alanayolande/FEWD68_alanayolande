@@ -71,6 +71,15 @@ header {
   background-color: #033048;
 }
 
+header h5{
+  display: inline-block;
+  padding-left: 300px;
+  padding-bottom: 20px;
+  margin: 10px; 
+  color: #f9e42e;
+  font-size: 24px;
+}
+
 h1{
   font-size: 44px;
   font-weight: 800;
@@ -96,11 +105,14 @@ h1{
     font-color: #f9e42e;
 }
 
-
+.nav a{
+  color: #f9e42e;
+  text-decoration: none;
+}
 
 .main-content {
   width: 700px;
-  height: 500px;
+  height: 650px;
     margin: 30px 10px 10px 150px;
     color: #606161;
     position: relative;
@@ -140,36 +152,53 @@ h1{
 
 .side-bar {
   width: 240px;
-    margin: 0px 20px 200px 5px;
+    margin: 0px 20px 20px 5px;
     padding: 10px 20px 10px 20px;   
     position: relative;
     left: 710px;
-    bottom: 500px;
+    bottom: 650px;
     color: #033048;
     font-size: 24px;
     font-weight: 300;
 }
 
+.side-bar p{
+    font-size: 22px;
+    font-weight: 300;
+}
+
 .side-bar adunit {
   width: 200px;
-  height: 400px;
-    margin: 200px 20px 200px 5px;
+    margin: 200px 20px 0px 5px;
     background-color: #FFF;
     padding: 10px 20px 10px 20px;   
     position: relative;
-    bottom: 434px;
+    bottom: 4px;
     left: 710px;
 }
 
-.side-bar a:visited { 
+.side-bar 
+a:link {
     color: #033048;
     font-weight: 800;
     text-decoration: none;
 }
 
+a:visited {
+    color: #033048;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+
 .side-bar h3{
   font-size: 32px;
   font-weight: 800;
+}
+
+.side-bar li{
+    font-size: 22px;
+    font-weight: 300;
 }
 
 .signup {

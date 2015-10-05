@@ -51,7 +51,7 @@ body {
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    background-size: cover;
 }
 
 
@@ -68,6 +68,23 @@ body {
 
 }
 
+/* unvisited link */
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFF;
+}
+
 header {
   margin: 50px 10px 10px 200px;
   font-size: 24px;
@@ -82,21 +99,6 @@ header h1{
 header h2{
   margin: 100px 10px 50px 300px;
   font-weight: 600; 
-}
-
-footer {
-  text-align: center;
-  padding: 30px;
-  font-size: 9px;
-  color: #FFF;
-  width: auto;
-  background-color: #000;  
-}
-
-footer h3{
-  font-size: 24px;
-  font-weight: 800;
-  color: #f9e42e;
 }
 
 #socialicons {
@@ -124,7 +126,8 @@ footer h3{
   padding: 30px;
   margin: 0 auto;
   width: auto;
-  background-color: #FFF;  
+  background-color: #FFF; 
+  background-size: cover; 
 }
 
 .benefits h3{
@@ -147,6 +150,69 @@ footer h3{
   font-weight: 300;
   margin: 0px 0px 0px 175px;
 }
+
+.quote{
+  text-align: center;
+  height: 394px;
+  width: auto;
+  background: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+}
+.quote p{
+  text-align: center;
+  padding: 100px 0px 0px 0px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-style: italic;
+  color: #FFF;
+  font-size: 18px;
+}
+
+.quote h4{
+  font-weight: 600;
+  color: #FFF;
+  font-size: 18px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 9px;
+  color: #FFF;
+  width: auto;
+  background-color: #000;  
+}
+
+footer h3{
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+}
+
+.footersignup {
+    background-color: #f9e42e;
+    width: auto;
+}
+
+.signupbutton {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 35px;
+  border-radius: 5px;
+  width: 150px;
+  background-color: #033048;
+  padding: 20px;
+}
+
+.signupbutton p {
+  text-align: center;
+  color: #FFF;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+
 
 
 /******************************************
