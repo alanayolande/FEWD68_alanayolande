@@ -1,0 +1,72 @@
+
+
+body{
+	color:	#000000;
+	font-size:	18px;	
+	font-family: 'Sanchez', serif;
+	font-weight: bold 700;	
+	background-image: url(http://www.benniweller.de/wp-content/uploads/2015/01/Cover_Intro_3.gif); 
+	background-color: transparent; 
+	background-position: 50% 25%; 
+	background-repeat: no-repeat;
+	padding:	 10px 100px 100px 100px;
+	margin:	20px;
+	text-align: center;
+}
+
+p{
+	color:	#000000;
+	font-size:	24px;	
+	font-family: 'Sanchez', serif;
+	background-color:	#FFFFFF;	
+	background-image: url('');
+	padding:	 50px 50px 0px 50px;
+	margin:	20px;
+	text-align: center;
+}
+
+section{
+	color:	#000000;
+	font-size:	34px;
+	margin: 0px 100px;
+
+}
+/* Drop Cap reacts to size of browser window FIX IT */
+.firstcharacter { 
+	float: left; 
+	font-size: 75px; 
+	line-height: 70px; 
+	letter-spacing: -10px;
+	padding: 4px 0px 10px 30px; 
+
+}
+
+.center{
+	color:	#000000;
+	font-size:	14px;
+	margin: 0px 100px;
+
+}
+
+a:visited { 
+    color: #0000DD;
+}
+
+#description{
+	font-size: 34px;
+}
+
+#superman{
+	font-weight: bold;
+}
+
+#batman{
+	color: #FFDD44;
+}
+
+#wonderwoman{
+	font-size: 85px;
+	line-height: -2;
+	letter-spacing: -1px;
+}
+
