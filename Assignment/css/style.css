@@ -175,13 +175,42 @@ header h2{
 }
 
 
+.signup {
+    background-color: #f9e42e;
+    width: auto;
+}
+
+.signupbutton a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.signupbutton {
+  margin: 0 auto;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  border-radius: 5px;
+  width: 175px;
+  background-color: #033048;
+  padding: 20px;
+}
+
+.signupbutton a {
+  text-align: center;
+  color: #FFF;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+
 footer {
   text-align: center;
-  padding: 30px;
   font-size: 9px;
+  padding: 0px 0px 20px 0px;
   color: #FFF;
-  width: auto;
   background-color: #000;  
+  width: auto;
+  margin: 0 auto
 }
 
 footer h3{
@@ -190,28 +219,12 @@ footer h3{
   color: #f9e42e;
 }
 
-.footersignup {
-    background-color: #f9e42e;
-    width: auto;
+.yellowbar{
+  background-color: #f9e42e;
+  padding: 10px;
+  width: auto;
+  margin-bottom: 30px;
 }
-
-.signupbutton {
-  margin: 0 auto;
-  margin-bottom: 50px;
-  margin-top: 35px;
-  border-radius: 5px;
-  width: 150px;
-  background-color: #033048;
-  padding: 20px;
-}
-
-.signupbutton p {
-  text-align: center;
-  color: #FFF;
-  font-weight: 800;
-  font-size: 14px;
-}
-
 
 
 
